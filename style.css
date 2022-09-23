@@ -1,17 +1,92 @@
-* {
+/* * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
+} */
 
 header {
     background-image: url(img/pattern.png);
     background-repeat: repeat;
-    background-size: 450px;
+    background-size: auto 150%;
     background-color: rgb(97, 160, 248);
 }
 
 header > img {
     padding-top: 50px;
     width: 15em;
+}
+
+.titles div {
+    margin-bottom: 10px;
+    color: lightgrey;
+}
+
+.titles p{
+    margin: 0;
+    font-size: small;
+}
+
+.titles a {
+    text-decoration: none;
+    color: aqua;
+}
+
+.imgs p{
+font-size: smaller;
+padding: 0;
+margin: 0;
+}
+
+.highlight {
+   background-color: yellow;
+}
+
+.articles ul {
+    padding: 20px;
+}
+
+table {
+    width: 100%;
+}
+
+th {
+    background-color: rgb(97, 160, 248);
+    text-align: start;
+    color: white;
+}
+
+table tr:nth-child(odd) {
+    background-color:rgb(187	228	240	);
+}
+
+table tr:not(thead tr) {
+    height: 50px;
+}
+
+td,
+th {
+    width: 50px;
+}
+
+footer h3 {
+    color: lightgrey;
+}
+.bg-monitor,
+.bg-graph {
+    background-repeat: no-repeat;
+    background-size: contain;
+    color: white;
+    font-size: larger;
+    width: 320px;
+    height: 208px;
+
+    padding: 20px;
+}
+
+.bg-monitor {
+    background-image: url('img/monitor.jpg');
+}
+
+.bg-graph {
+    background-image: url('img/graph.jpg');
 }
